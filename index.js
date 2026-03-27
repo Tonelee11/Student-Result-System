@@ -57,7 +57,7 @@ function result(){
    var output = document.getElementById('output');
    
    if(definition==undefined ){
-    output.innerHTML=` There is no information about this student.<hr>`;
+    output.innerHTML=` Please enter your name to see results <hr>`;
    }
    else{
     output.innerHTML=` Math = ${definition.math}. <br> Physics = ${definition.Physics}. <br> Literature = ${definition.Literature}. <br> Geogrphy = ${definition.Geography}. <br> Chemistry = ${definition.Chemistry}. <br> Biology = ${definition.Biology}<hr>`;
